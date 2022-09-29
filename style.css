@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.rps{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    transition: 0.2;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+/* .score{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.result{
+    margin: 20px;
+    text-align: center;
+}
+@media screen and (max-width:540px) {
+    .main{
+        width: 95%;
+    }
+}
